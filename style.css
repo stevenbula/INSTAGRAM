@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  .perfil {
+    width: 22px;
+    border-radius: 50%;
+    background-image: url ("https://previews.123rf.com/images/imagevectors/imagevectors1606/imagevectors160600380/59162629-icono-de-perfil-blanco-en-el-bot%C3%B3n-negro-aislado-en-blanco.jpg");
+    background: cover;
+}
+  
+  .navbar {
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+    box-shadow: 1px 1px 11px 2px #00000014;
+  }
+  
+  .navbar .container {
+    max-width: 900px;
+    margin: 0 auto;
+    height: inherit;
+    padding: 0 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .navbar .item i {
+    font-size: 24px;
+  }
+ 
+  
+  .img-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .img img{
+    width: 100%;
+  }
+  
